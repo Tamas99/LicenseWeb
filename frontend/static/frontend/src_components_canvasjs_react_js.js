@@ -1,0 +1,2 @@
+/*! For license information please see src_components_canvasjs_react_js.js.LICENSE.txt */
+(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([["src_components_canvasjs_react_js"],{"./src/components/canvasjs.react.js":()=>{eval("\n\n//# sourceURL=webpack://frontend/./src/components/canvasjs.react.js?")}}]);
