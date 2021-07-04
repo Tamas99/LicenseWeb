@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
+const rasync = require("react-async");
 
-export default class Trajectorypage extends Component {
+export default class Humanpage extends Component {
   length = 121;
 
   constructor(props) {
@@ -68,9 +69,9 @@ export default class Trajectorypage extends Component {
 
   render() {
     const users = [];
-    let image_source = "../../static/images/BezierTrajDxDy/";
+    let image_source = "../../static/images/JustTrajDxDy/";
 
-    for (let index = 2; index < this.length; index++) {
+    for (let index = 1; index < this.length; index++) {
       let userIndex = "User" + index;
       users.push(userIndex);
     }
@@ -81,9 +82,9 @@ export default class Trajectorypage extends Component {
           <label>
             Pick a user:
             <select onChange={this.handleUserSelected}>
-              <option selected value="User1">
+              {/* <option selected value="User1">
                 User1
-              </option>
+              </option> */}
               {users.map((value, index) => {
                 return <option value={value}>{value}</option>;
               })}
@@ -183,7 +184,7 @@ export default class Trajectorypage extends Component {
         </div>
         <div class="change-div">
           <label>Switch to:</label>
-          <Button variant="contained" color="primary" to="/trajectory" component={Link}>Human</Button>
+          <Button variant="contained" color="primary" to="/bezier" component={Link}>Bézier</Button>
         </div>
       </div>
     );

@@ -1,9 +1,9 @@
-d:\License\venv\Scripts\activate.bat
+d:\LicenseWeb\venv\Scripts\activate.bat
 
-cd MouseDynamicsAnalyzisWeb\MDA
+cd MouseDynamicsAnalyzisWeb
 
 python manage.py runserver
 
-cd MouseDynamicsAnalyzisWeb\MDA\frontend
+cd MouseDynamicsAnalyzisWeb\frontend
 
 npm run dev

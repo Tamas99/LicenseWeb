@@ -75,10 +75,9 @@ img {
   grid-row: 1/2;
 }
 
-.change-page {
-  grid-column: 4/5;
+.change-div {
+  grid-column: 3/5;
   grid-row: 1/2;
   height: 100%;
   width: 100%;
-  /* position: right; */
 }
