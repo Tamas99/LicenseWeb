@@ -1,4 +1,4 @@
-d:\LicenseWeb\venv\Scripts\activate.bat
+d:\License\venv\Scripts\activate.bat | d:\LicenseWeb\venv\Scripts\activate.bat
 
 cd MouseDynamicsAnalyzisWeb
 
