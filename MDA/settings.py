@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-@bl0c2tu3)^xr6w9e!6v7273s*6-3%!69vw92d2xpiq$aus_4^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.mouse-dynamics.com', 'mouse-dynamics.herokuapp.com']
 
 
 # Application definition
