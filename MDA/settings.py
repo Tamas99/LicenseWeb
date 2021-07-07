@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@bl0c2tu3)^xr6w9e!6v7273s*6-3%!69vw92d2xpiq$aus_4^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.mouse-dynamics.com', 'mouse-dynamics.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.mouse-dynamics.com', 'mouse-dynamics.herokuapp.com']
 
 
 # Application definition
